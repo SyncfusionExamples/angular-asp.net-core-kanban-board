@@ -1,4 +1,4 @@
-# Easily create the Angular 10 application with the Kanban board
+# Easily create an Angular 10 application with the Kanban board
 
 The angular Kanban component is created from the Syncfusion ej2-angular-kanban package in Angular 10 application with ASP.NET core web API.
 
