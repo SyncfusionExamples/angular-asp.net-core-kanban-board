@@ -2,10 +2,14 @@
 
 The angular Kanban component is created from the Syncfusion ej2-angular-kanban package in Angular 10 application with ASP.NET core web API.
 
+## Prerequisites
+
+* Visual Studio 2022
+
 ## How to run the project
 
 * Checkout this project to a location in your disk.
-* Open the solution file using the Visual Studio.
+* Open the solution file using the Visual Studio 2022.
 * Restore the NuGet packages by rebuilding the solution.
 * Run the project.
 
