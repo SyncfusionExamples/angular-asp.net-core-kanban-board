@@ -13,9 +13,9 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "8.2.12",
-    "@angular/common": "21.0.6",
-    "@angular/compiler": "21.1.2",
-    "@angular/core": "21.1.2",
+    "@angular/common": "^21.2.7",
+    "@angular/compiler": "^21.2.7",
+    "@angular/core": "21.1.4",
     "@angular/forms": "8.2.12",
     "@angular/platform-browser": "8.2.12",
     "@angular/platform-browser-dynamic": "8.2.12",
