@@ -1,18 +1,33 @@
-# Easily create an Angular 10 application with the Kanban board
+# Angular 10 Kanban Board Application
 
-The angular Kanban component is created from the Syncfusion ej2-angular-kanban package in Angular 10 application with ASP.NET core web API.
+A full-stack Kanban board application built with Angular 10 and ASP.NET Core Web API. This project demonstrates how to create a task management system using Syncfusion EJ2 Kanban component with a responsive UI and backend REST API for task persistence and retrieval.
 
 ## Prerequisites
 
 * Visual Studio 2022
+* .NET 5.0 SDK
+* Node.js 12+ and npm
+* Syncfusion ej2-angular-kanban package
 
-## How to run the project
+## How to Run
 
-* Checkout this project to a location in your disk.
-* Open the solution file using the Visual Studio 2022.
-* Restore the NuGet packages by rebuilding the solution.
-* Run the project.
+1. Clone the project to your local machine
+2. Open solution file with Visual Studio 2022
+3. Rebuild the solution to restore NuGet packages
+4. Navigate to ClientApp and run `npm install`
+5. Run the project from Visual Studio (Ctrl+F5)
 
-## See also
-* [Online examples](https://ej2.syncfusion.com/angular/demos/#/material/kanban/overview/)
-* [Documentation](https://ej2.syncfusion.com/angular/documentation/kanban/getting-started/)
+## Project Details
+
+### Overview
+Manages tasks across three status columns: Open, InProgress, and Close. Uses Syncfusion Kanban component with drag-and-drop functionality for intuitive task management.
+
+### Features
+* Drag-and-drop task management
+* RESTful API for data retrieval
+* Task assignment tracking
+* Status-based organization
+
+## See Also
+* [Syncfusion Angular Kanban Examples](https://ej2.syncfusion.com/angular/demos/#/material/kanban/overview/)
+* [Syncfusion Kanban Documentation](https://ej2.syncfusion.com/angular/documentation/kanban/getting-started/)
