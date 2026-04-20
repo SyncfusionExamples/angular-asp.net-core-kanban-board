@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
+import { CommonModule } from '@angular/common';
 
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
@@ -12,16 +13,18 @@ import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { KanbanModule } from '@syncfusion/ej2-angular-kanban';
 @NgModule({
   declarations: [
-    AppComponent,
+
+  ],
+  imports: [
+    BrowserModule,
+    CommonModule,
+    HttpClientModule,
+    FormsModule,
+        AppComponent,
     NavMenuComponent,
     HomeComponent,
     CounterComponent,
-    FetchDataComponent
-  ],
-  imports: [
-    BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
-    HttpClientModule,
-    FormsModule,
+    FetchDataComponent,
     KanbanModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full' },
@@ -29,7 +32,6 @@ import { KanbanModule } from '@syncfusion/ej2-angular-kanban';
       { path: 'fetch-data', component: FetchDataComponent },
     ])
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: []
 })
 export class AppModule { }
