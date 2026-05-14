@@ -1,9 +1,14 @@
 import { Component } from '@angular/core';
 import { CardSettingsModel } from '@syncfusion/ej2-angular-kanban';
 import { HttpClient } from "@angular/common/http";
+import { CommonModule } from '@angular/common';
+import { KanbanModule } from '@syncfusion/ej2-angular-kanban';
+
 @Component({
   selector: 'app-home',
-  templateUrl: './home.component.html',
+  standalone: true,
+  imports: [CommonModule, KanbanModule],
+  templateUrl: './home.component.html'
 })
 export class HomeComponent {
   public cardSettings: CardSettingsModel = {

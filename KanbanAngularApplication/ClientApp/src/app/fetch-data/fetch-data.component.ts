@@ -1,8 +1,11 @@
 import { Component, Inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-fetch-data',
+  standalone: true,
+  imports: [CommonModule],
   templateUrl: './fetch-data.component.html'
 })
 export class FetchDataComponent {
